@@ -1,0 +1,17 @@
+.flexRowContent--main-header{
+    background-color: black;
+}
+
+.flexRowContent--menu-row{
+    background-color: black;
+    padding: 5%;
+}
+.flexRowContent--gridSec{
+    width: 70%;
+    margin-left:22% ;
+}
+.flexRowContent--info-card-example{
+    display: flex;
+    justify-content: space-between;
+}
+

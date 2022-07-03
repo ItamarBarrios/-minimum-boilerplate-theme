@@ -1,0 +1,41 @@
+{
+    "store.custom#cart": {
+      "blocks": ["flex-layout.row#minicart-block"]
+    },
+  
+    "flex-layout.row#minicart-block": {
+      "children": ["flex-layout.col#minicart-block"],
+      "props": {
+        "fullWidth": true,
+        "blockClass": "minicart-block"
+      }
+    },
+    "flex-layout.col#minicart-block": {
+      "children": ["minicart.v2#block"],
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "center",
+        "blockClass": "minicart-block"
+      }
+    },
+    "minicart.v2#block": {
+      "children": ["minicart-base-content#block"],
+      "props": {
+        "variation": "drawer",
+        "blockClass": "minicart-block"
+      }
+    },
+  
+    "minicart-base-content#block": {
+      "blocks": ["minicart-empty-state"],
+      "children": ["minicart-product-list", "flex-layout.row#minicart-block-footer"]
+    },
+    
+    
+    "flex-layout.row#minicart-block-footer": {
+      "children": ["flex-layout.col#minicart-block-footer"]
+    },
+    "flex-layout.col#minicart-block-footer": {
+      "children": ["minicart-checkout-button", "free-shipping-thermometer"]
+    }
+  }

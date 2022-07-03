@@ -1,0 +1,24 @@
+.countdown_counter{
+    background:rgb(4, 79, 81);
+    width: 160%;
+}
+.countdown_date_item{
+    width: 100px;
+    height: 150px;
+    size: 60px;
+    margin: 15px;
+}
+
+.countdown_date_text{
+    width: 100px;
+    height: 50px;
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+}
+.countdown_date_number{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+

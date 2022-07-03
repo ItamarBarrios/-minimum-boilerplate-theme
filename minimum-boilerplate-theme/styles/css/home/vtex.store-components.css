@@ -1,0 +1,31 @@
+.infoCardContainer--info-card-example{
+    height: 650px !important;
+}
+
+.paginationDotsContainer--home_slider {
+    transform:translateY(30px);
+}
+.infoCardTextContainer--info-card-example{
+    margin-left: 15%;
+}
+.infoCardCallActionContainer--info-card-example{
+    width: 45%;
+}
+.infoCardHeadline--info-card-example{
+    margin-right:5% ;
+    font-weight: 300;
+    width: 60%;
+    font-size: 35px;
+    color: white;
+}
+.imageElement{
+    width:30%;
+    height: 70%;
+}
+.infoCardImage--info-card-example{
+    height: 400px;
+    width: 80%;
+}
+/* .container--gridSec{
+    width: ;
+} */

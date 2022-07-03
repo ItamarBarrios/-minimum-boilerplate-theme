@@ -1,0 +1,293 @@
+{
+  "store.home": { 
+  "blocks": [
+    
+    "whatsapp-button",  
+     "countdown-banner",
+    "info-card#banner",
+    "flex-layout.row#home_section--one",
+    "slider-layout#home_slider--children",
+    "flex-layout.row#bullets",
+    "flex-layout.row#home_section--two",
+    "flex-layout.row#home_section--three",
+    "search-result-layout.customQuery#home",
+    "flex-layout.row#home_section--four",
+    "flex-layout.row#pdf-reader",
+    "flex-layout.row#quick-order",
+    "flex-layout.row#bullets"
+    
+    
+    
+  ]
+},
+  "countdown-banner":{
+    "children":[
+    
+      "rich-text#countdown"
+    ],
+    "props":{
+      
+      "finalDate": "2022-08-01T04:30:00Z"
+      }
+},
+
+
+ 
+ "rich-text#countdown":{
+     "props":{
+      "blockClass": "banner",
+      "text": "![alt text](assets/img/Banner.png)\n Descubre las Ofertas antes de que acaben"
+     }
+ },
+
+
+
+"whatsapp-button":{
+  "props":{
+    "logo": "assets/img/WhatsApp.svg.png",
+    "phone": "567899876",
+    "message": "mas informacion"
+  }
+},
+  "flex-layout.row#bullets": {
+    "children": ["list-context.bullet-group"],
+    "props": {
+      "blockClass": "bullets"
+    }
+   
+  },
+
+  "list-context.bullet-group": {
+    "title": "Mi contexto de lista de Bullet",
+    "children": [
+      "slider-layout#bullet-group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/s3.png",
+          "titleBullet": "computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/s2.png",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/f1.png",
+          "titleBullet": "computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/f2.png",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/f3.png",
+          "titleBullet": "computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/f4.png",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/f5.png",
+          "titleBullet": "computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/p1.png",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 5,
+        "phone": 5
+      },
+      "infinite": true
+    }
+  },
+  "flex-layout.row#pdf-reader": {
+    "children": ["flex-layout.col#pdf-reader"]
+  },
+
+  "flex-layout.col#pdf-reader": {
+    "children": ["pdf-reader-custom"]
+  },
+  "pdf-reader-custom": {
+    "props": {
+      "pdfUrl": "https://manuals.info.apple.com/MANUALS/2000/MA2078/es_MX/macbook-pro-13inch-m2-2022-Y03405167-qsg.pdf",
+      "width": 500,
+      "height": 800
+    }
+  },
+  "flex-layout.row#quick-order": {
+    "children": ["flex-layout.col#quick-order"]
+  },
+  "flex-layout.col#quick-order": {
+    // "children": ["quick-order"]
+  },
+
+   "flex-layout.row#home_section--one":{
+    "title": "section one",
+    "children":[
+      "flex-layout.row#section_one--text"
+    ],
+    "props":{
+      "blockClass": "home_section--one"
+    }
+  },
+
+  "flex-layout.row#section_one--text":{
+    "children":[
+      "rich-text#section_one--title"
+    ]
+  },
+  
+  "rich-text#section_one--title":{
+    "props":{
+      "text": "Lo Último"
+
+    }
+
+  },
+
+   "flex-layout.row#home_section--two":{
+     "title": "section two",
+     "children":[
+       "flex-layout.row#section_two--text"
+     ],
+     "props":{
+       "blockClass": "home_section--two"
+     }
+   },
+
+   "flex-layout.row#section_two--text":{
+     "children":[
+       "rich-text#section_two--title"
+     ]
+   },
+   
+   "rich-text#section_two--title":{
+     "props":{
+       "text": "Novedades"
+
+     }
+
+   },
+
+
+
+  "slider-layout#home_slider--children":{
+    "props":{
+      "itemsPerPage":{
+        "desktop":1,
+        "tablet":1,
+        "mobile":1
+    },
+    "infinite":true,
+    "blockClass":"home_slider",
+    "autoplay":{
+      "timeout": 3000,
+      "stopOnHover":true
+    }
+  },
+  "children":[
+    "image#home_slider--one",
+    "image#home_slider--two",
+    "image#home_slider--three",
+    "image#home_slider--four" 
+  ]
+},
+ "image#home_slider--one": {
+  "props" : {
+    "src" : "assets/img/Sd.png"
+  }
+},
+  "image#home_slider--two": {
+  "props" : {
+    "src" : "assets/img/Dp.png"
+  }
+},
+"image#home_slider--three":{
+  "props":{
+    "src":"assets/img/s2.png"
+  }
+},
+"image#home_slider--four":{
+  "props":{
+    "src": "assets/img/s4.png"
+  }
+},
+"flex-layout.col#shelf": {
+  "children": ["search-result-layout.customQuery#home"]
+},
+
+"search-result-layout.customQuery#home": {
+  "blocks": ["search-result-layout.desktop#home"],
+  "props": {
+    "querySchema": {
+      "orderByField": "OrderByReleaseDateDESC",
+      "maxItemsPerPage": 5,
+      "simulationBehavior": "skip",
+      "queryField" : ""
+    }
+  }
+},
+"search-result-layout.desktop#home": {
+  "children": ["flex-layout.row#results-home"],
+  "props": {
+    "preventRouteChange": true
+  }
+},
+"flex-layout.row#results-home": {
+  "children": ["flex-layout.col#search-home"]
+},
+"flex-layout.col#search-home": {
+  "children": ["search-content#home"]
+},
+"search-content#home": {
+  "blocks": ["gallery#home", "not-found"]
+},
+"gallery#home": {
+  "props": {
+    "maxItemsPerRow": {
+      "desktop": 5,
+      "tablet": 5,
+      "mobile": 5
+    }
+  },
+  "blocks": ["product-summary.shelf"]
+}
+
+} 
+
+
+
+

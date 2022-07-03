@@ -1,0 +1,64 @@
+{
+    "flex-layout.row#home_section--four":{
+        "title": "News Section",
+        "children":[
+            "flex-layout.col#section_four--text"
+        ]
+    },
+    "flex-layout.col#section_four--text":{
+        "children":[
+            "rich-text#section7",
+            "flex-layout.row#section_four--image"
+        ]
+    },
+    "rich-text#section7":{
+        "props":{
+        "text": "Últimas Noticias"
+        }
+    },
+    "flex-layout.row#section_four--image":{
+        "children":[
+            "flex-layout.col#new-text",
+            "flex-layout.col#new-textA",
+            "flex-layout.col#new-textB"
+        ]
+    },
+   
+    "flex-layout.col#new-text":{
+       "children":[ 
+           "rich-text#news--text"
+        
+        
+    ]
+    },
+    "rich-text#news--text":{
+        "props":{
+            "blockClass": "colNews",
+            "text":"[![alt text](assets/img/f2.png)\n Nuevas Bocinas para cuello estilo neckband SRS-NB10\n $22,999](//)"
+        }
+    },
+    
+    "flex-layout.col#new-textA":{
+        "children":[
+            "rich-text#news--text1"
+        ]
+    },
+    "rich-text#news--text1":{
+        "props":{
+            "blockClass": "colNew",
+            "text":"[![alt text](assets/img/f3.png)\n Cámara ZV-1 para videoblogs\n $22,999](//)"
+        }
+    },
+    "flex-layout.col#new-textB":{
+        "children":[
+            "rich-text#news--text2"
+        ]
+    },
+    "rich-text#news--text2":{
+        "props":{
+            "blockClass": "colNew",
+            "text":"[![alt text](assets/img/f5.png)\n Cámara ZV-1 para videoblogs\n $22,999](//)"
+        }
+    }    
+    }
+

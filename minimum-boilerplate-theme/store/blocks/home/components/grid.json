@@ -1,0 +1,89 @@
+{
+    "flex-layout.row#home_section--three":{
+        "title": "grid section",
+        "children":[
+            "flex-layout.col#section_three--text",
+            "flex-layout.col#section_three--image",
+            "flex-layout.col#section1_three--image"
+        ],
+        "props":{
+            "blockClass": "gridSec"
+        }
+    },
+    "flex-layout.col#section_three--text":{
+        "children":[
+            "rich-text#section_three--pgh",
+            "flex-layout.row#section_three--price"
+            
+        ],
+        "props":{
+            "blockClass":"gridCol"
+        }
+    },
+   
+    "rich-text#section_three--pgh":{
+        "props":{
+            "blockClass": "pgh",
+            "text": "Nuevos WF-C5000: Diseño compacto, sonido sin límites la combinación perfecta"
+        }
+
+    },
+    "flex-layout.row#section_three--price":{
+        "children":[
+            "rich-text#section2",
+            "rich-text#section3"
+        ]
+
+    },
+    "rich-text#section2":{
+       "props":{
+           "blockClass": "camera",
+           "text":"[![alt text](assets/img/p5.png)\n Cámara ZV-1 para videoblogs\n $22,999](//)"
+       }
+    },
+    "rich-text#section3":{
+       "props":{
+           "blockClass": "rx",
+           "text":"[![alt text](assets/img/p7.png)\n Cámara RX0 II: pequeña,\n resistente y con gran calidad\n $23,999](//)"
+       }
+    },
+   
+
+    "flex-layout.col#section_three--image":{
+        "children":[
+            "rich-text#section1",
+            "rich-text#section"
+        ]
+    },
+    "rich-text#section1":{
+       "props":{
+           "blockClass":"extra",
+           "text":" [![alt text](assets/img/p3.png)\n Bocina Inalámbrica portátil EXTRA\n BASS XB13\n $1,439](//) "
+           
+       }
+    },
+    "rich-text#section":{
+        "props":{
+            "blockClass": "x",
+            "text": "[![alt text](assets/img/p8.png)\n Bocina Inalámbrica portátil XG500\n de la serie X\n $13,332 ](//)"
+            
+        }
+    },
+    "flex-layout.col#section1_three--image":{
+        "children":[
+            "rich-text#section4"
+        ]
+    },
+
+    "rich-text#section4":{
+        "props":{
+            "blockClass": "audifonos",
+            "text": "[![alt text](assets/img/p1.png)\n Audífonos True Wireless WF-C500\n $2,856](//)"
+        }
+    }
+
+    
+    
+    
+
+}

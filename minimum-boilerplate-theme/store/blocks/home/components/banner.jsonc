@@ -1,0 +1,16 @@
+{ 
+  "info-card#banner": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl":"assets/img/BannS.png",
+      "headline": "BRAVIA XR Sumérgete en una imagen y sonido envolventes",
+      "callToActionText": "Sumergete en mas profundidad",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "left"
+    }
+   }
+
+}

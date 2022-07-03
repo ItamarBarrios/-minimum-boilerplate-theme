@@ -1,0 +1,111 @@
+
+.styledLinkContent--category-menu{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.styledLinkContent--category-home{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.styledLinkContent--item-more{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.styledLinkContent--category1-home{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.styledLinkContainer--Ver{
+    margin-bottom: 200px;
+    
+}
+.styledLinkContent--Ver{
+    color: blue;
+    font-size: 12px;
+    margin-top: 40px;
+}
+.styledLinkContent--Tv{
+    color: blue;
+    margin: 20px 10px;
+    font-size: 15px;
+    /* border-right: solid 3px; */
+}
+
+.styledLinkContent--Audio{
+    color: blue;
+    margin: 20px 10px;
+    font-size: 15px;
+}
+.styledLinkContent--Camaras{
+    color: blue;
+    margin: 20px 10px;
+    font-size: 15px;
+    
+}
+.styledLinkContent--vc{
+    color: blue;
+    margin: 20px 10px;
+    font-size: 15px;
+}
+.styledLinkContent--Auto{
+    color: blue;
+    margin: 20px 10px;
+    font-size: 15px;
+}
+.styledLinkContent--ato{
+    color: blue;
+    font-size: 15px;
+}
+.menuItem--Tv{
+    border-right: solid 1px;
+    padding: 6px;
+    border-color: lightgray;
+}
+.menuItem--Tvs{
+    border-right: solid 1px;
+    border-color: lightgray;
+}
+.menuItem--Audio{
+    border-right: solid 1px;
+    border-color: lightgray;
+}
+.menuItem--Audios{
+    border-right: solid 1px;
+    border-color: lightgray;
+}
+.menuItem--Camaras{
+    border-right: solid 1px;
+    border-color: lightgray;
+}
+.menuItem--Cam{
+    border-right: solid 1px;
+    border-color: lightgray; 
+}
+.menuItem--vc{
+    border-right: solid 1px;
+    border-color: lightgray; 
+}
+.menuItem--vcs{
+    border-right: solid 1px;
+    border-color: lightgray;
+}
+.menuItem--Auto{
+    border-right: solid 1px;
+    border-color: lightgray; 
+}
+.menuItem--Autos{
+    border-right: solid 1px;
+    border-color: lightgray; 
+}
+/* .menuItem--ato{
+    border-right: solid 1px;
+    border-color: lightgray;  
+}
+.menuItem--atos{
+    border-right: solid 1px;
+    border-color: lightgray;  
+} */

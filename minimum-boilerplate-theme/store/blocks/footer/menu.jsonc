@@ -1,0 +1,226 @@
+{
+    "vtex.menu@2.x:menu#Products": {
+      "props": {
+        "orientation": "vertical"
+      }
+      
+    },
+  
+    "vtex.menu@2.x:menu#footer-decoration": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#smartphones",
+        "menu-item#videogames",
+        "menu-item#tvs",
+        "search-bar"
+        
+       
+      ]
+    },
+  
+    "menu-item#smartphones": {
+      "props": {
+        "id": "menu-item-smartphones",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/decoration/smartphones",
+          "noFollow": true,
+          "tagTitle": "Blog Playstation",
+          "text": "Blog Playstation"
+        }
+      }
+    },
+  
+    "menu-item#videogames": {
+      "props": {
+        "id": "menu-item-videogames",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/decoration/videogames",
+          "noFollow": true,
+          "tagTitle":  "Comunidad Alpha",
+          "text": "Comunidad Alpha"
+        }
+      }
+    },
+  
+    "menu-item#tvs": {
+      "props": {
+        "id": "menu-item-tvs",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/decoration/tvs",
+          "noFollow": true,
+          "tagTitle": "TVs",
+          "text": "Ayuda con Mi Producto"
+        }
+      }
+    },
+  
+    "vtex.menu@2.x:menu#footer-Prensa": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#Prensa"
+      ]
+    },
+  
+    "menu-item#Prensa": {
+      "props": {
+        "id": "menu-item-Prensa",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/bags/d",
+          "noFollow": true,
+          "tagTitle": "Centro de Prensa",
+          "text": "Centro de Prensa"
+        }
+      }
+    },
+  
+    "vtex.menu@2.x:menu#footer-Tienda": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#Tienda",
+        "menu-item#Ayuda"
+      ]
+    },
+  
+    "vtex.menu@2.x:menu#footer-mobile": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#clothing-mobile",
+        "menu-item#decoration-mobile",
+        "menu-item#sale-mobile"
+      ]
+    },
+  
+    "menu-item#clothing-mobile": {
+      "props": {
+        "id": "menu-item-category-clothing",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/clothing/d",
+          "noFollow": true,
+          "tagTitle": "Clothing",
+          "text": "Clothing"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#Tienda"]
+    },
+    "vtex.menu@2.x:submenu.accordion#Tienda": {
+      "children": ["vtex.menu@2.x:menu#Tienda-accordion"]
+    },
+  
+    "vtex.menu@2.x:menu#Tienda-accordion": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#Tienda",
+        "menu-item#Ayuda"
+      ]
+    },
+  
+    "menu-item#decoration-mobile": {
+      "props": {
+        "itemProps": {
+          "tagTitle": "Decoration",
+          "text": "Decoration"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+    },
+    "vtex.menu@2.x:submenu.accordion#decoration": {
+      "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+    },
+  
+    "vtex.menu@2.x:menu#footer-decoration-mobile": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#smartphones",
+        "menu-item#videogames",
+        "menu-item#tvs"
+      ]
+    },
+  
+    "menu-item#sale-mobile": {
+      "props": {
+        "itemProps": {
+          "tagTitle": "Sale",
+          "text": "Sale"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+    },
+    "vtex.menu@2.x:submenu.accordion#sale": {
+      "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+    },
+  
+    "vtex.menu@2.x:menu#footer-sale-mobile": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#smartphones",
+        "menu-item#videogames",
+        "menu-item#tvs"
+      ]
+    },
+  
+    "menu-item#Tienda": {
+      "props": {
+        "id": "menu-item-category-Tienda",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Tienda Online",
+          "text": "Tienda Online"
+        }
+      }
+    },
+  
+    "menu-item#Ayuda": {
+      "props": {
+        "id": "menu-item-Ayuda",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Ayuda Sony Store",
+          "text": "Ayuda Sony Store"
+        }
+      }
+    }
+  }

@@ -1,0 +1,519 @@
+{
+    "menu-item#category-apparel": {
+    "props": {
+      "blockClass": "category-menu",
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronicos/",
+        "noFollow": false,
+        "tagTitle": "Electrónicos",
+        "text": "Electrónicos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-apparel": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu2"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-TvTeatro",
+       "menu-item#category-apparel-Television",
+         "menu-item#category-apparel-Teatro",
+         "menu-item#category-apparel-Blu-ray",
+         "menu-item#category-apparel-verTodo"
+    ]
+  },
+  "flex-layout.row#menu2":{
+    "children":[
+      "flex-layout.col#menu3",
+      "vtex.menu@2.x:menu#category-apparelA",
+      "vtex.menu@2.x:menu#category-apparelB",
+      "vtex.menu@2.x:menu#category-apparelC"
+      
+    ]
+  },
+  "flex-layout.col#menu3":{
+      "children":[
+        "vtex.menu@2.x:menu#category-apparel",
+        "vtex.menu@2.x:menu#category-apparelD"
+        
+      ]
+  },
+  "vtex.menu@2.x:menu#category-apparelA":{
+    "props": {
+      "blockClass":"bloque1",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-Audio",
+       "menu-item#category-apparel-Audifonos",
+         "menu-item#category-apparel-Mp3",
+         "menu-item#category-apparel-Resolucion",
+         "menu-item#category-apparel-Bocinas",
+         "menu-item#category-apparel-verTodo",
+         "flex-layout.col#menu4"
+    ]
+  },
+  
+  "menu-item#category-apparel-Audio": {
+    "props": {
+      "blockClass":"Audio",
+      "id": "menu-item-category-apparel-Audio",
+      "type": "custom",
+      "iconId": null,
+      // "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronicos/Audio/",
+        "noFollow": false,
+        "tagTitle": "Audio",
+        "text": "Audio"
+      }
+    }
+  },
+  "menu-item#category-apparel-Audifonos": {
+    "props": {
+      "blockClass":"Audios",
+      "id": "menu-item-category-apparel-Audifonos",
+      "type": "custom",
+      "iconId": null,
+      // "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/Audifonos/",
+        "noFollow": false,
+        "tagTitle": "Audifonos",
+        "text": "Audifonos"
+      }
+    }
+  },
+  "menu-item#category-apparel-Mp3": {
+    "props": {
+      "blockClass":"Audios",
+      "id": "menu-item-category-apparel-Mp3",
+      "type": "custom",
+      "iconId": null,
+      // "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/Mp3/",
+        "noFollow": false,
+        "tagTitle": "Reproductores de mp3",
+        "text": "Reproductores de mp3"
+      }
+    }
+  },
+  "menu-item#category-apparel-Resolucion": {
+    "props": {
+      "blockClass":"Audios",
+      "id": "menu-item-category-Resolucion",
+      "type": "custom",
+      "iconId": null,
+      // "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/Resolucion/",
+        "noFollow": false,
+        "tagTitle": "Audio de Alta de Resolución",
+        "text": "Audio de Alta de Resolución"
+      }
+    }
+  },
+  "menu-item#category-apparel-Bocinas": {
+    "props": {
+      "blockClass":"Audios",
+      "id": "menu-item-category-Bocinas",
+      "type": "custom",
+      "iconId": null,
+      // "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/Bocinas/",
+        "noFollow": false,
+        "tagTitle": "Bocinas Inalambricas",
+        "text": "Bocinas Inalambricas"
+      }
+    }
+  },
+
+
+ 
+  "vtex.menu@2.x:menu#category-apparelB":{
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-Camaras",
+       "menu-item#category-apparel-CamarasB",
+         "menu-item#category-apparel-Lentes",
+         "menu-item#category-apparel-CamarasC",
+         "menu-item#category-apparel-CineC",
+         "menu-item#category-apparel-verTodo"
+    ]
+  },
+  "menu-item#category-apparel-Camaras": {
+    "props": {
+      "blockClass":"Camaras",
+      "id": "menu-item-category-apparel-Camaras",
+      "type": "custom",
+      "iconId": null,
+      // "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/Camaras/",
+        "noFollow": false,
+        "tagTitle": "Camaras",
+        "text": "Cámaras"
+      }
+    }
+  },
+  "menu-item#category-apparel-CamarasB": {
+    "props": {
+      "blockClass":"Cam",
+      "id": "menu-item-category-apparel-CamarasB",
+      "type": "custom",
+      "iconId": null,
+      // "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/CamarasB/",
+        "noFollow": false,
+        "tagTitle": "Cámaras con lentes intercambiables",
+        "text": "Cámaras con lentes intercambiables"
+      }
+    }
+  },
+  "menu-item#category-apparel-Lentes": {
+    "props": {
+      "blockClass":"Cam",
+      "id": "menu-item-category-apparel-Lentes",
+      "type": "custom",
+      "iconId": null,
+      // "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/Lentes/",
+        "noFollow": false,
+        "tagTitle": "Lentes",
+        "text": "Lentes"
+      }
+    }
+  },
+  "menu-item#category-apparel-CamarasC": {
+    "props": {
+      "blockClass":"Cam",
+      "id": "menu-item-category-apparel-CamarasC",
+      "type": "custom",
+      "iconId": null,
+      // "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/CamarasC/",
+        "noFollow": false,
+        "tagTitle": "Cámaras Compactas",
+        "text": "Cámaras Compactas"
+      }
+    }
+  },
+  "menu-item#category-apparel-CineC": {
+    "props": {
+      "blockClass":"Cam",
+      "id": "menu-item-category-apparel-CineC",
+      "type": "custom",
+      "iconId": null,
+      // "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/CineC/",
+        "noFollow": false,
+        "tagTitle": "Cámaras de Cine",
+        "text": "Cámaras de Cine"
+      }
+    }
+  },
+ 
+
+  
+  "menu-item#category-apparel-TvTeatro": {
+    "props": {
+      "blockClass":"Tv",
+      "id": "menu-item-category-apparel-TvTeatro",
+      "type": "custom",
+      "iconId": null,
+      // "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronicos/TVTeatro/",
+        "noFollow": false,
+        "tagTitle": "Television y Teatro en Casa",
+        "text": "Television y Teatro en Casa"
+      }
+    }
+  },
+  "menu-item#category-apparel-Television": {
+    "props": {
+      "blockClass":"Tvs",
+      "id": "menu-item-category-apparel-Television",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/Television/",
+        "noFollow": false,
+        "tagTitle": "Television",
+        "text": "Television"
+      }
+    }
+  },
+  "menu-item#category-apparel-Teatro": {
+    "props": {
+      "blockClass":"Tvs",
+      "id": "menu-item-category-apparel-Teatro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/Teatro/",
+        "noFollow": false,
+        "tagTitle": "Teatro en Casa y barras de sonido",
+        "text": "Teatro en Casa y barras de sonido"
+      }
+    }
+  },
+
+  "menu-item#category-apparel-Blu-ray": {
+  "props": {
+    "blockClass":"Tvs",
+    "id": "menu-item#category-apparel-Blu-ray",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/apparel---accessories/Blu-ray/",
+      "noFollow": false,
+      "tagTitle": "Reproductores de Blu-ray Disc y DVD",
+      "text": "Reproductores de Blu-ray Disc y DVD"
+    }
+  }
+},
+"menu-item#category-apparel-verTodo": {
+  "props": {
+    "blockClass":"Ver",
+    "id": "menu-item#category-apparel-verTodo",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/apparel---accessories/verTodo/",
+      "noFollow": false,
+      "tagTitle": "Ver Todo",
+      "text": "Ver Todo"
+    }
+  }
+},
+"vtex.menu@2.x:menu#category-apparelC":{
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#category-apparel-Videocamaras",
+     "menu-item#category-apparel-Accion",
+       "menu-item#category-apparel-Profesional",
+       "menu-item#category-apparel-CineC",
+       "menu-item#category-apparel-verTodo"
+  ]
+},
+"menu-item#category-apparel-Videocamaras":{
+  "props": {
+    "blockClass":"vc",
+    "id": "menu-item#category-apparel-Videocámaras",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/apparel---accessories/Videocámaras/",
+      "noFollow": false,
+      "tagTitle": "Videocámaras",
+      "text": "Videocámaras"
+    }
+  }
+},
+"menu-item#category-apparel-Accion":{
+  "props": {
+    "blockClass":"vcs",
+    "id": "menu-item#category-apparel-Accion",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/apparel---accessories/Accion/",
+      "noFollow": false,
+      "tagTitle": "Cámaras de acción",
+      "text": "Cámaras de acción"
+    }
+  }
+},
+"menu-item#category-apparel-Profesional":{
+  "props": {
+    "blockClass":"vcs",
+    "id": "menu-item#category-apparel-Profesional",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/apparel---accessories/Profesional/",
+      "noFollow": false,
+      "tagTitle": "Cámaras de vídeo profesionales",
+      "text": "Cámaras de vídeo profesionales"
+    }
+  }
+},
+"vtex.menu@2.x:menu#category-apparelD":{
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#category-apparel-Auto",
+     "menu-item#category-apparel-Receptores",
+       "menu-item#category-apparel-Amplificadores",
+       "menu-item#category-apparel-Parlantes",
+       "menu-item#category-apparel-verTodo"
+  ]
+},
+"menu-item#category-apparel-Auto":{
+  "props": {
+    "blockClass":"Auto",
+    "id": "menu-item#category-apparel-Auto",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/apparel---accessories/Auto/",
+      "noFollow": false,
+      "tagTitle": "Audio para auto",
+      "text": "Audio para auto"
+    }
+  }
+},
+"menu-item#category-apparel-Receptores":{
+  "props": {
+    "blockClass":"Autos",
+    "id": "menu-item#category-apparel-Receptores",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/apparel---accessories/Receptores/",
+      "noFollow": false,
+      "tagTitle": "Receptores y reproductores",
+      "text": "Receptores y reproductores"
+    }
+  }
+},
+"menu-item#category-apparel-Amplificadores":{
+  "props": {
+    "blockClass":"Autos",
+    "id": "menu-item#category-apparel-Amplificadores",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/apparel---accessories/Amplificadores/",
+      "noFollow": false,
+      "tagTitle": "Amplificadores",
+      "text": "Amplificadores"
+    }
+  }
+},
+"menu-item#category-apparel-Parlantes":{
+  "props": {
+    "blockClass":"Autos",
+    "id": "menu-item#category-apparel-Parlantes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/apparel---accessories/Parlantes/",
+      "noFollow": false,
+      "tagTitle": "Parlantes y subwoofers",
+      "text": "Parlantes y subwoofers"
+    }
+  }
+},
+"flex-layout.col#menu4":{
+  "children":[
+    "vtex.menu@2.x:menu#category-apparelE"
+    
+  ]
+},
+"vtex.menu@2.x:menu#category-apparelE":{
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#category-apparel-Almacenamiento",
+     "menu-item#category-apparel-Tarjetas",
+     "menu-item#category-apparel-verTodo"
+  ]
+},
+"menu-item#category-apparel-Almacenamiento":{
+  "props": {
+    "blockClass":"ato",
+    "id": "menu-item#category-apparel-Almacenamiento",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/apparel---accessories/Almacenamiento/",
+      "noFollow": false,
+      "tagTitle": "Almacenamiento y cables",
+      "text": "Almacenamiento y cables"
+    }
+  }
+},
+"menu-item#category-apparel-Tarjetas":{
+  "props": {
+    "blockClass":"atos",
+    "id": "menu-item#category-apparel-Tarjetas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/apparel---accessories/Tarjetas/",
+      "noFollow": false,
+      "tagTitle": "Tarjetas",
+      "text": "Tarjetas"
+    }
+  }
+}
+
+}
+
